@@ -4,3 +4,5 @@ secs = int(sys.argv[1]) if len(sys.argv) > 1 else 22
 print('sleep', secs)
 time.sleep(secs)
 print('ok')
+def ping() -> None:
+    print('ping')
